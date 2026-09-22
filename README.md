@@ -16,16 +16,10 @@ DS_HW1/
   └──requirements.txt
 
 
-Setup & Run
+Install dependencies and execute the entire pipeline with a single command from the project root:
 
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the script:
-
-python src/main.py
+bash
+pip install -r requirements.txt && python src/main.py
 
 
 (Saves output to DS_HW/plots/revenue_by_product.png)
